@@ -1,6 +1,6 @@
 {
-  "name": "sqlstring",
-  "description": "Simple SQL escape and format for MySQL",
+  "name": "ibh-sqlstring",
+  "description": "Simple SQL escape and format for Inbox Health usages",
   "version": "2.3.2",
   "contributors": [
     "Adri Van Houdt <adri.van.houdt@gmail.com>",
@@ -8,7 +8,8 @@
     "fengmk2 <fengmk2@gmail.com> (http://fengmk2.github.com)",
     "Kevin Jose Martin <kevin@tiliq.com>",
     "Nathan Woltman <nwoltman@outlook.com>",
-    "Sergej Sintschilin <seregpie@gmail.com>"
+    "Sergej Sintschilin <seregpie@gmail.com>",
+    "Nick DiMucci <nick@dimucci.dev>"
   ],
   "license": "MIT",
   "keywords": [
@@ -17,7 +18,7 @@
     "escape",
     "sql escape"
   ],
-  "repository": "mysqljs/sqlstring",
+  "repository": "NickDiMucci/ibh-sqlstring",
   "devDependencies": {
     "beautify-benchmark": "0.2.4",
     "benchmark": "2.1.4",

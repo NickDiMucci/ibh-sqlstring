@@ -6,15 +6,17 @@
 [![Build Status][travis-image]][travis-url]
 [![Coverage Status][coveralls-image]][coveralls-url]
 
-Simple SQL escape and format for MySQL
+Simple SQL escape and format for Advantage DB.
 
 ## Install
 
 ```sh
-$ npm install sqlstring
+$ npm install ibh-sqlstring
 ```
 
 ## Usage
+
+This repo was forked so it could be modified to escape single quotes with double quotes, instead of backslashes, so that it may be used to escape SQL strings for Advantage DB.
 
 <!-- eslint-disable no-undef, no-unused-vars -->
 
